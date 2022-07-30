@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="stylesheet" href="null.css">
+   <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lesson-16-Forms</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="main">
+
+
+         <div class="navigation-menu">
+            <div class="navigation-menu__button">
+               <a href="#button2">Contact-us</a>
+            </div>
+            <div class="navigation-menu__button">
+               <a href="#button3">Registered Customers</a>
+            </div>
+            <div class="navigation-menu__button">
+               <a href="#button4">Summary</a>
+            </div>
+         </div>
+         <div class="make" id="button1">
+            <div class="make__header">Make an appointment</div>
+            <form class="make-form" action="#">
+               <div class="form-items">
+                  <div class="make-form-items__item">
+                     <input class="make__input" placeholder="Name" type="text" id="name" name="name">
+                  </div>
+                  <div class="make-form-items__item">
+                     <input class="make__input" placeholder="Email" type="email" id="email" name="email">
+                  </div>
+                  <div class="make-form-items__item">
+                     <input class="make__input" placeholder="Phone Number" type="tel" id="phone" name="phone">
+                  </div>
+                  <div class="make-form-items__item">
+                     <input class="make__input" placeholder="Select Service" type="text" id="service" name="service">
+                  </div>
+               </div>
+               <div class="make-form__textarea">
+                  <textarea class="make__textarea" placeholder="Tell us about your puppers include his/her name"
+                     name="textarea" id="textarea"></textarea>
+                  <label class="make__textarea-label" for="textarea"></label>
+               </div>
+               <div class="make__button">
+                  <input class="make__button-input" type="submit" id="button" value="MAKE AN APPOINTMENT">
+                  <label class="make__button-label" for="button"> make an appointment</label>
+               </div>
+            </form>
+         </div>
+
+         <div class="tech">
+            <div class="contact-us" id="button2">
+               <div class="navigation-menu">
+                  <div class="navigation-menu__button">
+                     <a href="#button2">Make an appointment</a>
+                  </div>
+                  <div class="navigation-menu__button">
+                     <a href="#button3">Registered Customers</a>
+                  </div>
+                  <div class="navigation-menu__button">
+                     <a href="#button4">Summary</a>
+                  </div>
+               </div>
+               <div class="contact-us__header">Contact Us</div>
+               <div class="contact-us__text">We love hearing from you, our Shop customers. <br>
+                  Please contact us and we will make sure to get back to you as soon as we possibly can.</div>
+               <form action="#">
+                  <div class="contact-us__form">
+                     <div class="contact-us__form-name">
+                        <label class="contact-us__label" for="name">Your Name <span>*</span></label>
+
+                        <input class="contact-us__input" type="text" placeholder="Your Name" name="name" id="name">
+                     </div>
+                     <div class="contact-us__form-email">
+                        <label class="contact-us__label" for="email">Your Name <span>*</span></label>
+                        <input class="contact-us__input" type="email" placeholder="Your Email" name="email" id="email">
+                     </div>
+                     <div class="contact-us__form-phone">
+                        <label class="contact-us__label" for="phone">Your Phone Number <span>*</span></label>
+                        <input class="contact-us__input" type="tel" placeholder="Your Phone" name="phone" id="phone">
+                     </div>
+                     <div class="contact-us__textarea">
+                        <label class="contact-us__label" for="textarea">What’s on your mind? <span>*</span></label>
+                        <textarea class="contact-us__input" name="textarea" id="textarea"
+                           placeholder="Jot us a note and we’ll get back to you as quickly as possible"></textarea>
+                     </div>
+                     <div class="contact-us__button">
+                        <input class="contact-us__button-input" type="submit" id="submit" value="Submit">
+                        <label class="contact-us__button-label" for="submit">Submit</label>
+                     </div>
+                  </div>
+
+               </form>
+            </div>
+
+
+
+            <div class="navigation-menu">
+               <div class="navigation-menu__button">
+                  <a href="#button1">Make an appointment</a>
+               </div>
+               <div class="navigation-menu__button" id="button2">
+                  <a href="#button2">Contact-us</a>
+               </div>
+               <div class="navigation-menu__button">
+                  <a href="#button4">Summary</a>
+               </div>
+            </div>
+            <div class="customer-login" id="button3">
+               <div class="customer-login__register">
+                  <div class="customer-login__header">Registered Customers</div>
+                  <div class="customer-login__text">If you have an account, sign in with your email address.</div>
+               </div>
+               <form action="#">
+                  <div class="customer-login__form">
+                     <div class="customer-login__form-items">
+                        <div class="customer-login__form-item">
+                           <label class="customer-login__label" for="email">Email <span>*</span></label>
+                           <input class="customer-login__input" placeholder="Your Name" name="email" type="email">
+                        </div>
+                        <div class="customer-login__form-item">
+                           <label class="customer-login__label" for="password">Password <span>*</span></label>
+                           <input class="customer-login__input" placeholder="Your Password" name="password"
+                              type="password">
+                        </div>
+                     </div>
+                     <div class="customer-login__button">
+                        <input class="customer-login__button-input" id="submit" type="submit">
+                        <label class="customer-login__button-label" for="submit">Sign In</label>
+                     </div>
+                     <a class="customer-login__link" href="#">Forgot Your Password</a>
+                  </div>
+               </form>
+            </div>
+
+            
+            <div class="navigation-menu">
+               <div class="navigation-menu__button">
+                  <a href="#button1">Make an appointment</a>
+               </div>
+               <div class="navigation-menu__button" id="button2">
+                  <a href="#button2">Contact-us</a>
+               </div>
+               <div class="navigation-menu__button">
+                  <a href="#button3">Registered Customers</a>
+               </div>
+
+            </div>
+
+            <div class="summary">
+               <div class="summary__header" id="button4">Summary</div>
+               <div class="summary__header-small">Estimate Shipping and Tax</div>
+               <div class="summary__text">Enter your destination to get a shipping estimate.</div>
+               <form action="#">
+                  <div class="summary__form">
+                     <div class="summary__form-items">
+                        <div class="summary__form-item">
+                           <label class="summary__form-label" for="country">Country</label>
+                           <select class="summary__form-select" name="country" id="country">
+                              <option selected value="Australia">Australia</option>
+                              <option value="USA">USA</option>
+                           </select>
+                        </div>
+                        <div class="summary__form-item">
+                           <label class="summary__form-label" for="State/Province">State/Province</label>
+                           <input class="summary__form-input" placeholder="Enter State/Province" type="text"
+                              name="State/Province" id="State/Province">
+                        </div>
+                        <div class="summary__form-item">
+                           <label class="summary__form-label" for="Zip/Postal Code">Zip/Postal Code</label>
+                           <input class="summary__form-input" placeholder="Enter State/Province" type="text"
+                              name="Zip/Postal Code" id="Zip/Postal Code">
+                        </div>
+                        <div class="summary__form-item">
+                           <label class="summary__form-label" for="rate1">Standard Rate</label>
+                           <div class="summary__form-radio">
+                              <div class="summary__form-radio-input">
+                                 <input type="radio" name="rate" id="rate1">
+                              </div>
+                              <label class="summary__form-label" for="rate1">Price may vary depending on the
+                                 item/destination. Shop Staff will contact you. $21.00</label>
+                           </div>
+                        </div>
+                        <div class="summary__form-item">
+                           <label class="summary__form-label" for="rate2">Pickup from store</label>
+                           <div class="summary__form-radio">
+                              <div class="summary__form-radio-input">
+                                 <input type="radio" name="rate" id="rate2">
+                              </div>
+                              <label class="summary__form-label" for="rate2">1234 Street Adress City Address, 1234
+                                 $0.00</label>
+                           </div>
+                        </div>
+                        <div class="summary__header-small">Apply Discount Code</div>
+                        <div class="summary__form-item">
+                           <label class="summary__form-label" for="discount code">Enter discount code</label>
+                           <input class="summary__form-input" placeholder="Enter discount code" type="text"
+                              name="discount code" id="discount code">
+                        </div>
+                        <div class="summary__form-submit">
+                           <input class="summary__form-submit-input" type="submit" id="submit">
+                           <label class="summary__form-submit-label" for="submit">Apply Discount</label>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+            </div>
+
+
+
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>
